@@ -12,15 +12,5 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Generate song"
-  },
-  "permissions": ["contextMenus", "tabs", "storage"],
-  "background": {
-    "service_worker": "scripts/contextMenuServiceWorker.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["scripts/content.js"]
-    }
-  ]
+  }
 }
