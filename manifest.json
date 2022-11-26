@@ -1,6 +1,6 @@
 {
-  "name": "GPT-3 Writer",
-  "description": "Write your first song in the style of your favorite artist anywhere!",
+  "name": "magic blog post generator",
+  "description": "highlight your blog post title, we'll generate the rest",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
@@ -11,6 +11,6 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Generate song"
+    "default_title": "Generate blog post"
   }
 }
