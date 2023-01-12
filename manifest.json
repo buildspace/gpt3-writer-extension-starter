@@ -12,5 +12,6 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Generate blog post"
-  }
+  },
+  "permissions": ["contextMenus", "tabs", "storage"]
 }
