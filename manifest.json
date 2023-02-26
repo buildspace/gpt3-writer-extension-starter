@@ -1,6 +1,6 @@
 {
-  "name": "GPT-3 Writer",
-  "description": "Write a blog post in the style of your favorite thinker anywhere!",
+  "name": "magic blog post generator",
+  "description": "highlight your blog post title, we'll generate the rest",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
@@ -12,5 +12,9 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Generate blog post"
-  }
+  },
+  "background": {
+    "service_worker": "scripts/contextMenuServiceWorker.js"
+  },
+  "permissions": ["contextMenus", "tabs", "storage"]
 }
